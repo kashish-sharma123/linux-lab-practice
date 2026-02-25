@@ -1,0 +1,13 @@
+# Lab 3 – systemd Timer
+
+## Objective
+Automate script execution using systemd timer.
+
+## Tasks Performed
+1. Created a script to write output to `/tmp/systemd.log`.
+2. Created a systemd service file.
+3. Created a systemd timer file.
+4. Enabled and verified timer execution.
+
+## Result
+Systemd timer successfully triggered the script automatically.
