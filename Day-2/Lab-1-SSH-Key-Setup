@@ -1,0 +1,15 @@
+# Lab 1 – SSH Key Setup
+
+## Objective
+Configure secure SSH login using key-based authentication.
+
+## Tasks Performed
+1. Generated SSH key pair.
+2. Copied the public key to the remote server.
+3. Disabled password authentication for SSH.
+4. Verified login using SSH keys.
+
+## Result
+Successfully configured password-less and secure SSH access.
+"C:\Users\kashi\OneDrive\Desktop\day2\day2 lab1.1.png"
+"C:\Users\kashi\OneDrive\Desktop\day2\day2lab1.2.png"
