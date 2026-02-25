@@ -10,3 +10,5 @@ Automate a task using cron scheduling.
 
 ## Result
 Cron job successfully executed and updated the log file automatically.
+
+<img width="1589" height="650" alt="day2lab2" src="https://github.com/user-attachments/assets/5bc130a6-82ce-428f-9bb6-c0ca22149fb9" />
