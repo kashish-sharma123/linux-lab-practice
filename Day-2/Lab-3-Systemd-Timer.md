@@ -11,3 +11,6 @@ Automate script execution using systemd timer.
 
 ## Result
 Systemd timer successfully triggered the script automatically.
+![day2lab3](https://github.com/user-attachments/assets/0c5f5588-573b-47d2-9cc4-37ceee1d0572)
+![day2lab3 1](https://github.com/user-attachments/assets/ddd824cb-a792-49f8-9088-eb34c076377a)
+
