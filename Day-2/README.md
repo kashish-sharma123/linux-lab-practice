@@ -1,7 +1,10 @@
-# linux-automation-labs
-# Linux Automation Labs  This repository contains Linux automation labs demonstrating SSH key authentication, Cron job scheduling, and systemd timers.    
-Labs Included:
-1. SSH Key Setup
-2. 2. Cron Job Automation
-   3.  3. Systemd Timer Automation
-       4. Each lab includes commands, steps, and screenshots for verification.
+**# Day 2 – Linux Automation**
+
+This lab demonstrates basic Linux automation and secure access configuration.
+
+Tasks performed:
+- SSH key authentication setup
+- Cron job to automate log updates
+- Systemd timer to execute scripts automatically
+
+Screenshots are included to verify successful execution.
