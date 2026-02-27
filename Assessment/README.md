@@ -31,3 +31,6 @@ Permission becomes:
 Thus, `umask` restricts permissions by removing certain access rights.
 
 **screenshot file* `practical1.md`
+
+The `umask` command controls the default permission settings for newly created files and directories.
+A umask value of 022 ensures that only the owner can modify files, while group and others can only read them, thereby improving system security.
