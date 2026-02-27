@@ -96,4 +96,24 @@ This allows the system to accept the key for login.
 
  **screenshot file*`practical3.1.md`
 
- 
+ # Package management
+
+ 1. Install `htop`
+
+`sudo apt update`
+
+`sudo apt install htop`
+
+`apt update` updates package lists
+
+`apt install htop` installs the htop monitoring tool
+
+2. Find which package provides `/bin/bash`
+
+`dpkg -S /bin/bash`
+
+Output:
+
+`bash: /bin/bash`
+
+**screenshot file*`practical4.md`
