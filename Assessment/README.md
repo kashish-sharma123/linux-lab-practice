@@ -204,9 +204,7 @@ This enables the timer and starts it immediately.
 
 **screenshot file*`practical6.md,practical6.1.md,practical6.2.md`
 
-# 7. Network 
-
-7. Network (Practical) – Theory (Short)
+#  Network 
 
 * In Linux, network troubleshooting involves checking the IP address, routing information, connectivity, and DNS resolution.
 
@@ -222,6 +220,80 @@ This enables the timer and starts it immediately.
 
 **screenshot file*`practical7.md,practical7.1.md,practical7.2.md,practical7.3.md`
 
+# Monitoring
 
+* System monitoring is the process of observing system resources such as CPU, memory, processes, and system load.
 
+* It helps administrators understand system performance and detect issues like high CPU usage or memory consumption.
 
+* Monitoring tools display running processes, resource usage, and system statistics in real time.
+
+* Tools like top and htop are commonly used in Linux for monitoring system activity.
+
+* htop provides an interactive and user-friendly interface to view and manage running processes.
+
+* Monitoring helps identify which process is consuming the most CPU or memory.
+
+* It is useful for performance tuning, troubleshooting, and maintaining system stability.
+
+**screenshot file*`practical8.md,practical8.1.md`
+
+# logs
+
+*Logs are files that store records of system activities and events in Linux.
+
+*They help administrators monitor system behavior and troubleshoot errors.
+
+*Most system logs are stored in the /var/log directory.
+
+*Important logs include system logs, authentication logs, and application logs.
+
+*Logs record information such as user logins, system errors, service activity, and security events.
+
+*The journalctl command is used to view logs managed by systemd.
+
+*Log files help in debugging problems, auditing system activity, and maintaining security.
+
+**screenshot file*`practical9.md`
+
+# network troubleshooting
+
+* Network troubleshooting is the process of identifying and resolving connectivity problems in a Linux system.
+
+* The first step is to check the network interface and IP address to confirm the system is connected to a network.
+
+* The routing table is examined to verify the default gateway used to access other networks.
+
+* Connectivity with the local gateway/router is tested to ensure the local network is functioning.
+
+* Internet connectivity is verified by testing communication with an external IP address.
+
+* DNS resolution is checked to ensure domain names are correctly translated into IP addresses.
+
+* Network diagnostic tools help trace the path taken by packets between the system and the destination.
+
+**screenshot file*`practical10.md`
+
+# small script
+
+* A shell script is a file containing a sequence of Linux commands that are executed automatically.
+
+* Shell scripts are commonly written using the Bash shell.
+
+* The script usually starts with #!/bin/bash, which tells the system to use the Bash interpreter.
+
+* Scripts help automate repetitive tasks such as file operations, backups, or system checks.
+
+* The script file must be given execute permission before running.
+
+* It is executed from the terminal using ./scriptname.sh.
+
+* Shell scripting improves efficiency, automation, and system administration tasks in Linux.
+
+**screenshot file*`practical11.md,practical11.1.md`
+
+#BONUS
+
+Cron vs Systemd Timers:
+
+Cron is a traditional Linux scheduler that runs tasks at fixed time intervals, while systemd timers are a modern scheduling method integrated with systemd services and offer more advanced control and logging.
