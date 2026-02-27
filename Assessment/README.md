@@ -204,3 +204,24 @@ This enables the timer and starts it immediately.
 
 **screenshot file*`practical6.md,practical6.1.md,practical6.2.md`
 
+# 7. Network 
+
+7. Network (Practical) – Theory (Short)
+
+* In Linux, network troubleshooting involves checking the IP address, routing information, connectivity, and DNS resolution.
+
+* The system’s IP address and network interfaces are checked to confirm the machine is connected to a network.
+
+* The routing table is examined to identify the default gateway used to reach external networks.
+
+* Connectivity is tested by sending network packets (ping) to the gateway or external servers to ensure the network and internet are working.
+
+* DNS resolution is verified to ensure domain names can be translated into IP addresses.
+
+* Tools like traceroute help analyze the path packets take through different network hops.
+
+**screenshot file*`practical7.md,practical7.1.md,practical7.2.md,practical7.3.md`
+
+
+
+
