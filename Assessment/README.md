@@ -151,3 +151,56 @@ To display the scheduled cron jobs:
 `crontab -l`
 
 **screenshot file*`practical5.md`
+
+# Systemd Service and Timer
+
+1. Create a service file
+
+Create `/etc/systemd/system/hello.service`
+
+[Unit]
+Description=Hello Systemd Service
+
+[Service]
+
+Type=oneshot
+
+ExecStart=/bin/bash -c 'echo "hello from systemd" >> /tmp/hello.txt'
+
+This service runs once and writes “hello from systemd” to /tmp/hello.txt.
+
+2. Create a timer file
+
+Create `/etc/systemd/system/hello.timer`
+
+[Unit]
+Description=Run hello service every 2 minutes
+
+[Timer]
+
+OnBootSec=1min
+
+OnUnitActiveSec=2min
+
+Unit=hello.service
+
+[Install]
+
+WantedBy=timers.target
+
+This timer triggers the service every 2 minutes.
+
+3. Reload systemd
+
+This reloads systemd so it recognizes the new service and timer.
+
+4. Enable and start the timer
+
+This enables the timer and starts it immediately.
+
+5. Check active timers
+
+`systemctl list-timers`
+
+**screenshot file*`practical6.md,practical6.1.md,practical6.2.md`
+
