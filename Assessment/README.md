@@ -69,4 +69,31 @@ Check expiry:
 
 `chage -l intern1`
 
-**screenshot file*: `practical2`
+**screenshot file*: `practical2.md`
+
+# Generate SSH Key Pair and Enable Passwordless Login
+
+1. Generate SSH Key Pair
+
+Use the `ssh-keygen` command to create a public and private key.
+
+2. Add Public Key to `authorized_keys`
+
+`cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys`
+
+This allows the system to accept the key for login.
+
+3. Set Proper Permissions
+
+`chmod 700 ~/.ssh`
+
+`chmod 600 ~/.ssh/authorized_keys`
+
+4. Test Passwordless Login
+
+`ssh -i ~/.ssh/id_rsa localhost`
+ **sccrenshot file*`practical3.md`
+
+ **screenshot file*`practical3.1.md`
+
+ 
