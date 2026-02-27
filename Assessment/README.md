@@ -117,3 +117,37 @@ Output:
 `bash: /bin/bash`
 
 **screenshot file*`practical4.md`
+
+# Create a Cron Job to Run /usr/bin/date Every Minute
+
+A cron job is used in Linux to schedule tasks that run automatically at specific time intervals.
+
+1. Edit Crontab
+
+Open the crontab file for the current user:
+
+`crontab -e`
+
+2. Add the Cron Job
+
+Add the following line:
+
+`* * * * * /usr/bin/date >> /tmp/cron_test.log`
+
+Explanation:
+
+* `* * * * *` - runs the command every minute
+
+* `/usr/bin/date` - prints the current date and time
+
+* `>>` - appends the output
+
+* `/tmp/cron_test.log` - log file where output is stored
+
+3. Show the Cron Jobs
+
+To display the scheduled cron jobs:
+
+`crontab -l`
+
+**screenshot file*`practical5.md`
