@@ -55,7 +55,7 @@ git commit -m "Initial commit: add README and app.py"
 git log
 ```
 
-Screenshot: Add terminal screenshot of `git log`
+Screenshot: `practical-1.md`
 
 ---
 
@@ -109,7 +109,7 @@ git remote add origin https://github.com/username/git-training.git
 git push -u origin feature-add-calculator
 ```
 
-Screenshot: Add GitHub push or branch screenshot.
+Screenshot: `practical-2.md`
 
 ---
 
@@ -147,7 +147,7 @@ git commit --amend -m "Updated commit message"
 git reset --soft HEAD~1
 ```
 
-Screenshot: Add stash command output.
+Screenshot: `practical-3.md`
 
 ---
 
@@ -206,7 +206,7 @@ Restart NGINX
 sudo systemctl restart nginx
 ```
 
-Screenshot: Browser showing website output.
+Screenshot: `practical-4.md`
 
 ---
 
@@ -240,7 +240,7 @@ Restart NGINX
 sudo systemctl restart nginx
 ```
 
-Screenshot: Reverse proxy working.
+Screenshot: `prcatical-5.md`
 
 ---
 
@@ -275,7 +275,7 @@ server {
 }
 ```
 
-Screenshot: SSL or load balancing output.
+Screenshot: `practical-6.md`
 
 ---
 
